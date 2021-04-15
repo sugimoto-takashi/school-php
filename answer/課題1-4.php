@@ -15,10 +15,10 @@
     </style>
 </head>
 <body>
-<p>PHP課題1-4</p>
+<p>PHP問題1-4</p>
 <div>
-    <!-- 課題１ -->
-    <p style="border-bottom:1px solid #ccc;">課題1<br>
+    <!-- 問題１ -->
+    <p style="border-bottom:1px solid #ccc;">問題1<br>
     「はい」「いいえ」のアドベンチャーゲームを作ってください。</p>
     <p>解答例</p>
     <form action="課題1-4.php" method="get">
@@ -36,6 +36,8 @@
         endif;
     ?>
 </div>
+
+
 
 
 
