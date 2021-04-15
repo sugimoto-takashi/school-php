@@ -23,11 +23,13 @@
     <p>解答例</p>
     <form action="課題1-4.php" method="get">
         <input type="radio" name="yes" value="はい">
-        <input type="radio" name="no" value="はい">
+        <input type="radio" name="no" value="いいえ">
     </form>
     <?php 
-        if():
+        if($GET["yes"]):
+            echo "好きです";
         else:
+            echo "嫌いです";
         endif;
     ?>
 </div>
