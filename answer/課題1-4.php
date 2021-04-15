@@ -15,28 +15,26 @@
     </style>
 </head>
 <body>
-<p>PHP問題1-4</p>
+<p>PHP課題1-4</p>
 <div>
-    <!-- 問題１ -->
-    <p style="border-bottom:1px solid #ccc;">問題1<br>
-    $randに乱数を入れて、100回繰り返した数値の平均値を求めて表示してください。<br>
-    各乱数の値も表示させてください。<br>
-    乱数は１～１００の整数値で設定してください。</p>
+    <!-- 課題１ -->
+    <p style="border-bottom:1px solid #ccc;">課題1<br>
+    「はい」「いいえ」のアドベンチャーゲームを作ってください。</p>
     <p>解答例</p>
+    <form action="課題1-4.php" method="get">
+        <input type="radio" name="yes" value="はい">
+        <input type="radio" name="no" value="はい">
+    </form>
     <?php 
-        
-        for ($i=1; $i < 100 ; $i++) { 
-            $rand = mt_rand(1,100);
-            echo $rand."<br>";
-            
-        }
+        if():
+        else:
+        endif;
     ?>
 </div>
-<!-- 問題２ -->
+<!-- 課題２ -->
 <div>
-    <p style="border-bottom:1px solid #ccc;">問題2<br>
-    上記の乱数の最大値と最小値を表示させましょう。<br>
-※乱数内の設定した最大値でOK。</p>
+    <p style="border-bottom:1px solid #ccc;">課題2<br>
+    キャラクターの変数を作り、<br>「はい」「いいえ」による選択肢で好感度が上下する<br>プログラムを作ってください。</p>
     <p>解答例</p>
     <?php 
         $min=1;
@@ -51,17 +49,11 @@
     ?>
 </div>
 
-    <!-- 問題３ -->
+    <!-- 課題３ -->
     <div>
-    <p style="border-bottom:1px solid #ccc;">問題3<br>
-    各乱数の値で<br>
-１～２５　（小）<br>
-２６～５０　（中）<br>
-５１～７５　（大）<br>
-７６～１００　（特大）<br>
-と横に表示させましょう。<br>
-<br>
-100回繰り返したら乱数の横に表示させてください。</p>
+    <p style="border-bottom:1px solid #ccc;">課題3<br>
+    問題２にあったキャラクターの好感度の最低値（-100）と最高値（+100）を作り<br>
+初期値０で初めて、－100になったらゲームオーバー。<br>＋100になったらエンディングになるようにプログラムを組んでください。</p>
     <p>解答例</p>
     <?php 
         $min=1;
